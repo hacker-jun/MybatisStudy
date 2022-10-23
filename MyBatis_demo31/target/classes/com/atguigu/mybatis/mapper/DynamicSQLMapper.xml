@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.atguigu.mybatis.mapper.DynamicSQLMapper">
+
+<!--    int insertMoreByList(List<Emp> emps);-->
+    <insert id="insertMoreByList">
+        insert into t_emp values
+        <foreach collection="emps" item="emp" separator=",">
+            (null,#{emp.empName},#{emp.age},#{emp.sex},#{emp.email},null)
+        </foreach>
+    </insert>
+
+<!--    int deleteMoreByArray(@Param("eids")Integer[] eids);-->
+    <delete id="deleteMoreByArray">
+        <foreach collection="eids" item="eid" separator="or">
+            eid = #{eid}
+        </foreach>
+    </delete>
+    <!--
+        <delete id="deleteMoreByArray">
+        delete from t_emp where eid in
+        (
+            <foreach collection="eids" item="eid" separator=",">
+                #{eid}
+            </foreach>
+        )
+    </delete>
+    -->
+
+<!--    List<Emp> getEmpByCondition(Emp emp);-->
+    <select id="getEmpByCondition" resultType="Emp">
+        select * from t_emp where 1=1
+        <if test="empName != null and empName != ''">
+            emp_name = #{empName}
+        </if>
+        <if test="age != null and age != ''">
+            and age = #{age}
+        </if>
+        <if test="sex != null and sex != ''">
+            and sex = #{sex}
+        </if>
+        <if test="email != null and email != ''">
+            and email = #{email}
+        </if>
+    </select>
+
+</mapper>

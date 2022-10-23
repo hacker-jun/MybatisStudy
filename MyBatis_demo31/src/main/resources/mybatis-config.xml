@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--这个可以引入properties文件，主要作用就是把数据库名数据库密码，文件管理员信息写到一个jdbc.properties文件中
+    <properties resource = "jdbc.properties"/>
+    -->
+    <properties resource = "jdbc.properties"/>
+
+<!--    设置MyBatis的全局配置-->
+<!--    mapUnderscoreToCamelCase 意思是将下划线自动转换为驼峰；例如：emp_name:empName-->
+<!--    默认是false，想要启用配置就将value值定义为true-->
+    <settings>
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+
+<!--        开启延迟加载-->
+        <setting name="lazyLoadingEnabled" value="true"/>
+    </settings>
+
+    <typeAliases>
+        <package name="com.atguigu.mybatis.pojo"/>
+    </typeAliases>
+    <!-- 环境配置：事务管理器和数据源配置 -->
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC" />
+            <dataSource type="POOLED">
+                <property name="driver" value="${jdbc.driver}" />
+                <property name="url" value="${jdbc.url}" />
+                <property name="username" value="${jdbc.username}" />
+                <property name="password" value="${jdbc.password}" />
+            </dataSource>
+        </environment>
+    </environments>
+
+
+
+    <!-- 映射器 -->
+    <mappers>
+        <package name="com.atguigu.mybatis.mapper" />
+    </mappers>
+</configuration>

@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0c519194-fa57-4a28-9ed5-98e2e722f07e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="mybatis-config" />
+        <option value="mybatis-mapper" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2EQBSqpkZbrrdNOkAjiXXeEjuQ9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/MyBatis_demo31/src/main/resources" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.atguigu.mybatis" />
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.atguigu.mybatis.utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyBatis\MyBatis_demo31\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CacheMapperTest.testCache2">
+    <configuration name="CacheMapperTest.testCache" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyBatis_demo31" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.mybatis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.mybatis" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.mybatis.CacheMapperTest" />
+      <option name="METHOD_NAME" value="testCache" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CacheMapperTest.testCache2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyBatis_demo31" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.mybatis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.mybatis" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.mybatis.CacheMapperTest" />
+      <option name="METHOD_NAME" value="testCache2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DynamicSQLMapperTest.testDeleteMoreByArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyBatis_demo31" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.mybatis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.mybatis" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.mybatis.DynamicSQLMapperTest" />
+      <option name="METHOD_NAME" value="testDeleteMoreByArray" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DynamicSQLMapperTest.testGetEmpByCondition (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyBatis_demo31" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.mybatis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.mybatis" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.mybatis.DynamicSQLMapperTest" />
+      <option name="METHOD_NAME" value="testGetEmpByCondition" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DynamicSQLMapperTest.testInsertMoreByList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyBatis_demo31" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.mybatis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.mybatis" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.mybatis.DynamicSQLMapperTest" />
+      <option name="METHOD_NAME" value="testInsertMoreByList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.82" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.82" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CacheMapperTest.testCache2" />
+        <item itemvalue="JUnit.CacheMapperTest.testCache" />
+        <item itemvalue="JUnit.DynamicSQLMapperTest.testInsertMoreByList" />
+        <item itemvalue="JUnit.DynamicSQLMapperTest.testDeleteMoreByArray" />
+        <item itemvalue="JUnit.DynamicSQLMapperTest.testGetEmpByCondition (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0c519194-fa57-4a28-9ed5-98e2e722f07e" name="Default Changelist" comment="" />
+      <created>1662517930526</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662517930526</updated>
+      <workItem from="1662517934057" duration="66000" />
+      <workItem from="1662518023829" duration="12555000" />
+      <workItem from="1662689796635" duration="624000" />
+      <workItem from="1662783960746" duration="6559000" />
+      <workItem from="1662875609493" duration="644000" />
+      <workItem from="1662877137942" duration="23260000" />
+      <workItem from="1663236624238" duration="661000" />
+      <workItem from="1663322882525" duration="23000" />
+      <workItem from="1663323017654" duration="586000" />
+      <workItem from="1663327795045" duration="8820000" />
+      <workItem from="1664077532215" duration="7353000" />
+      <workItem from="1664338202412" duration="3969000" />
+      <workItem from="1664433318870" duration="2355000" />
+      <workItem from="1664603629564" duration="8889000" />
+      <workItem from="1665035364930" duration="239000" />
+      <workItem from="1665035621998" duration="114000" />
+      <workItem from="1665035824452" duration="7506000" />
+      <workItem from="1665139977920" duration="6364000" />
+      <workItem from="1665388216347" duration="4850000" />
+      <workItem from="1665889895404" duration="17854000" />
+      <workItem from="1666151677126" duration="15891000" />
+      <workItem from="1666321115940" duration="1018000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="91" key="#Notifications" timestamp="1664608669058">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="91" key="#Notifications/0.0.1536.864@0.0.1536.864" timestamp="1664608669058" />
+    <state x="361" y="91" key="#Project_Structure" timestamp="1662517988166">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="91" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1662517988166" />
+    <state x="378" y="158" width="1236" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1665035673619">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="302" y="126" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1662784572128" />
+    <state x="378" y="158" width="1236" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1665035673619" />
+    <state x="574" y="148" key="#com.intellij.ide.util.MemberChooser" timestamp="1665902694125">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="574" y="148" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1665902694125" />
+    <state x="547" y="291" width="442" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1666167161465">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="547" y="291" width="442" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.864@0.0.1536.864" timestamp="1666167161465" />
+    <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1665897806632">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1665897806632" />
+    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1665057079388">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1665057079388" />
+    <state width="1493" height="307" key="GridCell.Tab.0.bottom" timestamp="1666186394598">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="307" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1666186394598" />
+    <state width="1493" height="307" key="GridCell.Tab.0.center" timestamp="1666186394598">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="307" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1666186394598" />
+    <state width="1493" height="307" key="GridCell.Tab.0.left" timestamp="1666186394598">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="307" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1666186394598" />
+    <state width="1493" height="307" key="GridCell.Tab.0.right" timestamp="1666186394598">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="307" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1666186394598" />
+    <state x="270" y="14" key="SettingsEditor" timestamp="1665144615293">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="270" y="14" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1665144615293" />
+    <state x="449" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1666321117089">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="449" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1666321117089" />
+    <state x="561" y="320" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1665035637107" />
+    <state x="178" y="9" key="new project wizard" timestamp="1665057653869">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="178" y="9" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1665057653869" />
+    <state x="425" y="197" key="run.anything.popup" timestamp="1664603762037">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="425" y="197" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1664603762037" />
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1665904581205">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1665904581205" />
+    <state x="491" y="344" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1665895504010">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="491" y="344" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1536.864@0.0.1536.864" timestamp="1665895504010" />
+  </component>
+</project>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+<!--这个可以引入properties文件，主要作用就是把数据库名数据库密码，文件管理员信息写到一个jdbc.properties文件中
+<properties resource = "jdbc.properties"/>
+-->
+    <!-- 环境配置：事务管理器和数据源配置 -->
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC" />
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.jdbc.Driver" />
+                <property name="url" value="jdbc:mysql://localhost:3306/mybatis" />
+                <property name="username" value="root" />
+                <property name="password" value="123456" />
+            </dataSource>
+        </environment>
+    </environments>
+
+    <!-- 映射器 -->
+    <mappers>
+        <mapper resource="mappers/UserMapper.xml" />
+    </mappers>
+</configuration>
